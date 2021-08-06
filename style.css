@@ -1,0 +1,76 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+.orange-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.half-width img{
+
+    width: 100%;
+}
+.top-baner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+   
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    
+}
+.link-button{
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(45deg,lightsalmon,tomato); /* linier gredient diye color dewa hoi */
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.dream-baner{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-box{
+    box-shadow: 10px 10px 40px gray; /*40 px diye color ta soriyr deya hoise*/
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#baby-web{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+
+}
+#full-stak{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    font-size: 12px;
+    text-align: center;
+}
